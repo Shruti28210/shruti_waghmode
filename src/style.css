@@ -198,7 +198,8 @@ a:hover {
 }
 
 .socials ul li {
-  display: inline-block;
+  padding:13px;
+  display: flex;
 }
 
 .socials .ico-circle {
@@ -997,4 +998,17 @@ BUTTON
   .back-to-top {
     bottom: 15px;
   }
+}
+
+#githubrepo{
+  margin-left: 30px;
+}
+#livebtn{
+  background-color: #60d4e9;
+  border: none;
+  width:80px;
+  padding:10px;
+  margin-bottom: 20px;
+  margin-left: 170px;
+  border-radius: 5px;
 }
